@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "up-keep",
+=======
   "name": "client",
+>>>>>>> 5e3f00590ffd84e33c25d7aa47b0f06af0547150
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +12,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+    "react-scripts": "^5.0.1",
+=======
     "react-scripts": "5.0.1",
+>>>>>>> 5e3f00590ffd84e33c25d7aa47b0f06af0547150
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+=======
+>>>>>>> 5e3f00590ffd84e33c25d7aa47b0f06af0547150
   }
 }
