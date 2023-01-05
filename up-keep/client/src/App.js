@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Login from './components/login';
 
 const App = () => 
     <div className="App text-center">
