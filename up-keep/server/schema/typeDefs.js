@@ -29,10 +29,10 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    createFallTask(task: String!)
-    createSummerTask(task: String!)
-    createSpringTask(task: String!)
-    createWinterTask(task: String!)
+    createFallTask(task: String!): Fall
+    createSummerTask(task: String!): Summer
+    createSpringTask(task: String!): Spring
+    createWinterTask(task: String!): Winter
   }
 `;
 
