@@ -2,37 +2,36 @@ const { Fall, Spring, Summer, Winter } = require('../models');
 
 const resolvers = {
    Query: {
-     Fall: async () => {
+     fallTasks: async () => {
        return Fall.find({});
      },
-     Spring: async (parent, { _id }) => {
-       const params = _id ? { _id } : {};
-       return Spring.find(params);
+     springTasks: async () => {
+      return Spring.find({});
      },
-     Summer: async (parent, {_id }) => {
-       const params = _id ? {_id } : {};
+     summerTasks: async () => {
+      return Summer.find({});
      },
-     Winter: async (parent, {_id }) => {
-       const params = _id ? {_id } : {};
+     winterTasks: async () => {
+      return Winter.find({});
      },
    },
     Mutation: {
-      creatFallTask: async (parent, args) => {
+      createFallTask: async (parent, args) => {
          const falltask = await FallTask.create(args);
          return falltask
       },
-      creatFallTask: async (parent, args) => {
+      createSpringTask: async (parent, args) => {
          const springtask = await SpringTask.create(args);
          return springtask
       },
-      creatFallTask: async (parent, args) => {
+      createSummerTask: async (parent, args) => {
          const summertask = await SummerTask.create(args);
          return summertask
       },
-      creatFallTask: async (parent, args) => {
+      createWinterTask: async (parent, args) => {
          const wintertask = await WinterTask.create(args);
          return wintertask
-      },
+      }
     },
 };
 
