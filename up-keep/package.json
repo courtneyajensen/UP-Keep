@@ -17,5 +17,9 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-redux": "^8.0.5"
   }
 }
