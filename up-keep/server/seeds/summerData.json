@@ -1,23 +1,23 @@
 [
-    {
-        "task": "Scrape, prime, and paint any areas on the house or garage that are in need. After painting is complete and dry, wash the exterior of the house."
-    },
-    {
-        "task": "If painting does not need to be performed, wash the exterior of the house and garage."
-    },
-    {
-        "task": "Look for visible signs of carpenter ants, termites, or any other destructive insects."
-    },
-    {
-        "task": "Check all flat roofs and recoat or seal as needed, especially flashing."
-    },
-    {
-        "task": "Check for mortar that needs repair (including chimney mortar and inside fireplace) and tuckpoint or repair as needed."
-    },
-    {
-        "task": "Clean carpets and wax tile and hardwood floors."
-    },
-    {
-        "task": "Add copper sulfate to basement floor drain and downspout drains to control tree roots in main sewer."
-    }
+	{
+		"task": "Scrape, prime, and paint any areas on the house or garage that are in need. After painting is complete and dry, wash the exterior of the house."
+	},
+	{
+		"task": "If painting does not need to be performed, wash the exterior of the house and garage."
+	},
+	{
+		"task": "Look for visible signs of carpenter ants, termites, or any other destructive insects."
+	},
+	{
+		"task": "Check all flat roofs and recoat or seal as needed, especially flashing."
+	},
+	{
+		"task": "Check for mortar that needs repair (including chimney mortar and inside fireplace) and tuckpoint or repair as needed."
+	},
+	{
+		"task": "Clean carpets and wax tile and hardwood floors."
+	},
+	{
+		"task": "Add copper sulfate to basement floor drain and downspout drains to control tree roots in main sewer."
+	}
 ]
